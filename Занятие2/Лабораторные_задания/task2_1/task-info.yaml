@@ -26,7 +26,7 @@ files:
       offset: 68
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: yield num
   - offset: 147
     length: 73
@@ -37,7 +37,7 @@ files:
       offset: 147
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: yield 2 ** i
   text: |
     from itertools import count
@@ -60,5 +60,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 26 Apr 2022 08:59:08 UTC
 record: -1

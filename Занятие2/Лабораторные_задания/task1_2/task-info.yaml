@@ -17,7 +17,7 @@ files:
       offset: 46
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: (num ** 2 for num in numbers)
   text: |
     def task(numbers: list) -> int:
@@ -32,5 +32,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 26 Apr 2022 08:58:53 UTC
 record: -1

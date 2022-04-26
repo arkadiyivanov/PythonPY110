@@ -23,8 +23,6 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Tue, 26 Apr 2022 08:45:12 UTC
-  actual: |
-    True
-    False
+  time: Tue, 26 Apr 2022 08:51:28 UTC
+  actual: <no output>
 record: -1

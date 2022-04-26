@@ -35,8 +35,5 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: Mon, 25 Apr 2022 10:02:05 UTC
+status: Unchecked
 record: -1

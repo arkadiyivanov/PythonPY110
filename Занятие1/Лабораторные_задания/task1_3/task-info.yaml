@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 149
-    length: 113
+    length: 111
     placeholder_text: '...  # используй ключевую у функции min, по которой она долна
       определять минимальный элемент'
     initial_state:
@@ -41,5 +41,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 12:02:33 UTC
+  time: Wed, 20 Apr 2022 16:29:21 UTC
 record: -1

@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 223
-    length: 96
+    length: 94
     placeholder_text: '...  # TODO c помощью функции map привести каждый элемент списка
       к типу int'
     initial_state:
@@ -42,5 +42,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 11:58:45 UTC
+  time: Wed, 20 Apr 2022 16:19:37 UTC
 record: -1

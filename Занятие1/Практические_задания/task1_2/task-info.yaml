@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 133
-    length: 50
+    length: 51
     placeholder_text: 'max(list(map(get_distance, points)))  # TODO убрать list'
     initial_state:
       length: 56
@@ -43,5 +43,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 10:28:47 UTC
+  time: Wed, 20 Apr 2022 15:15:07 UTC
 record: -1

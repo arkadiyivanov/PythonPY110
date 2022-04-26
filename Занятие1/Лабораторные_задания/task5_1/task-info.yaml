@@ -13,7 +13,7 @@ files:
   visible: true
   placeholders:
   - offset: 104
-    length: 67
+    length: 66
     placeholder_text: '...  # TODO поэлементно объединить numbers и chars'
     initial_state:
       length: 50
@@ -39,5 +39,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 12:35:23 UTC
+  time: Wed, 20 Apr 2022 16:55:36 UTC
 record: -1

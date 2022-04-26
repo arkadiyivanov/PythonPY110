@@ -113,9 +113,6 @@ files:
             for line in output_f:
                 print(line, end="")
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: input.json
   visible: true
   text: '[{"score": 0.00040403710013251447, "id": 25007, "density": 0.002539960237964018,
@@ -198,6 +195,9 @@ files:
             "contains_improvement_appeals": 1
         }
     ]
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

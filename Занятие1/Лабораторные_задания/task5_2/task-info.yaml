@@ -5,14 +5,11 @@ files:
   text: |
     [32.0, 97.88000000000001, 212.0]
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 64
-    length: 104
+    length: 96
     placeholder_text: '...  # TODO  вернуть список температур по Фаренгейту'
     initial_state:
       length: 52
@@ -31,8 +28,11 @@ files:
     if __name__ == "__main__":
         print(task())
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 12:38:17 UTC
+  time: Wed, 20 Apr 2022 16:58:55 UTC
 record: -1

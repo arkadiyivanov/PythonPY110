@@ -11,7 +11,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 69
+  - offset: 87
     length: 51
     placeholder_text: '...:  # TODO повторить переменную a 4 раза'
     initial_state:
@@ -40,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 12:34:34 UTC
+  time: Wed, 20 Apr 2022 16:54:36 UTC
 record: -1

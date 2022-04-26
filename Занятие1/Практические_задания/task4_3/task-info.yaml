@@ -15,7 +15,7 @@ files:
       length: 49
       offset: 240
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: repeat(2)))
   text: |
@@ -45,5 +45,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 11:17:31 UTC
+  time: Wed, 20 Apr 2022 16:04:45 UTC
 record: -1

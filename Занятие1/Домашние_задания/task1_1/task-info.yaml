@@ -16,10 +16,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Tue, 26 Apr 2022 08:45:37 UTC
+  time: Wed, 20 Apr 2022 17:14:31 UTC
   actual: |
-    0 zero
-    2 two
-    4 four
-    6 six
+    [('apple', 5), ('pear', 89), ('peach', 7)]
 record: -1

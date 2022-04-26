@@ -9,15 +9,15 @@ files:
   visible: true
   placeholders:
   - offset: 54
-    length: 129
+    length: 67
     placeholder_text: 'fn()  # TODO перевести результат исходной функции в верхний
       регистр'
     initial_state:
       length: 67
       offset: 54
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: |-
       result = fn()
               result = result.upper()
@@ -40,8 +40,5 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: Mon, 25 Apr 2022 09:35:38 UTC
+status: Unchecked
 record: -1

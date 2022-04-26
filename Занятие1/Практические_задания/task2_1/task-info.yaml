@@ -8,15 +8,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 65
-    length: 61
+  - offset: 98
+    length: 82
     placeholder_text: '[char for char in str_ if char.isalpha()]  # TODO переписать
       с помощью filter'
     initial_state:
       length: 77
       offset: 65
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: filter(str.isalpha, str_)
   text: |
@@ -32,5 +32,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 10:34:11 UTC
+  time: Wed, 20 Apr 2022 15:40:59 UTC
 record: -1

@@ -46,9 +46,6 @@ files:
     if __name__ == "__main__":
         print(task())
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: input.json
   visible: true
   text: |
@@ -1254,6 +1251,9 @@ files:
         "contains_improvement_appeals": 11
       }
     ]
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

@@ -162,9 +162,6 @@ files:
 
         # TODO дополнительно записать отсортированный список в JSON файл
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: input.json
   visible: true
   text: |-
@@ -284,6 +281,9 @@ files:
         "length": 25.416664498299966
       }
     ]
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

@@ -35,7 +35,7 @@ files:
     status: Solved
     encrypted_possible_answer: map(hex, numbers)
   - offset: 119
-    length: 103
+    length: 26
     placeholder_text: '...:  # TODO используя zip объединить число и его шестнадцатеричное
       представление'
     initial_state:
@@ -63,5 +63,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 11:57:48 UTC
+  time: Wed, 20 Apr 2022 16:15:47 UTC
 record: -1

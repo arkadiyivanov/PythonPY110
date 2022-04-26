@@ -17,8 +17,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 76
-    length: 115
+  - offset: 129
+    length: 67
     placeholder_text: '# TODO распечатать с столбик первые 10 чисел бесконечного итератора'
     initial_state:
       length: 67
@@ -49,5 +49,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 21 Apr 2022 12:31:43 UTC
+  time: Wed, 20 Apr 2022 16:47:55 UTC
 record: -1

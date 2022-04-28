@@ -1,8 +1,8 @@
 import functools
 def decorator(*args):
     def wrapper(*args):
-        if args== int:
-            print("Аргументы являются INT")
+        args == int:
+        print("Аргументы являются INT")
     return wrapper
 
 @decorator

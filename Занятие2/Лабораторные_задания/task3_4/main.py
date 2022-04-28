@@ -2,7 +2,7 @@ def make_string_upper(fn):
     def wrapper():
         result = fn()
         result = result.upper()
-        return result # TODO перевести результат исходной функции в верхний регистр
+        return result# TODO перевести результат исходной функции в верхний регистр
     return wrapper
 
 

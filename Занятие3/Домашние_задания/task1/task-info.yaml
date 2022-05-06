@@ -13,9 +13,21 @@ files:
         # Write your solution here
         pass
   learner_created: false
+- name: list_f.txt
+  visible: true
+  learner_created: true
+- name: listfile.txt
+  visible: true
+  learner_created: true
+- name: listfile3.txt
+  visible: true
+  learner_created: true
+- name: js/js.py
+  visible: true
+  learner_created: true
 status: Failed
 feedback:
   message: Incorrect
-  time: Fri, 06 May 2022 15:59:29 UTC
-  actual: <no output>
+  time: Fri, 06 May 2022 17:45:12 UTC
+  actual: 'Ivanov Petrov Sidorov Smirnov 400000$ 54800000$ 1000000$ 155415$ '
 record: -1

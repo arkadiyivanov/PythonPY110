@@ -26,7 +26,7 @@ files:
       length: 85
       offset: 395
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: print(json.dumps(python_obj, indent=4, ensure_ascii=False))
   text: |

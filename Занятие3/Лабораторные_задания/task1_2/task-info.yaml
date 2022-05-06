@@ -32,14 +32,14 @@ files:
   visible: true
   placeholders:
   - offset: 45
-    length: 35
+    length: 175
     placeholder_text: '...  # TODO записать лесенку в файл'
     initial_state:
       length: 35
       offset: 45
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       with open(OUTPUT_FILE, "w") as f:
               for count_asterisk in range(1, 11):
@@ -62,5 +62,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 06 May 2022 06:47:39 UTC
 record: -1

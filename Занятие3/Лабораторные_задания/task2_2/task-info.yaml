@@ -70,26 +70,26 @@ files:
   visible: true
   placeholders:
   - offset: 79
-    length: 51
+    length: 110
     placeholder_text: '...  # TODO считать содержимое json файл input.json'
     initial_state:
       length: 51
       offset: 79
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       with open(input_filename) as f:
               json_data = json.load(f)
-  - offset: 136
-    length: 67
+  - offset: 195
+    length: 139
     placeholder_text: '...  # TODO записать содержимое в json файл output.json с отступами'
     initial_state:
       length: 67
       offset: 136
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       with open(output_filename, "w") as f:
               json.dump(json_data, f, indent=4)
@@ -129,6 +129,9 @@ files:
     0.0015335808237345843, "id": 23236, "density": 0.009640783761472415, "contains_improvement_appeals":
     11}, {"score": 0.00047028097913217486, "id": 23237, "density": 0.0029563992694600187,
     "contains_improvement_appeals": 1}]'
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 - name: output.json
   visible: true
@@ -196,8 +199,8 @@ files:
         }
     ]
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 06 May 2022 07:42:58 UTC
 record: -1

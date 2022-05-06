@@ -2,7 +2,10 @@ OUTPUT_FILE = "output.txt"
 
 
 def task():
-    ...  # TODO записать лесенку в файл
+    with open(OUTPUT_FILE, "w") as f:
+        for count_asterisk in range(1, 11):
+            f.write(f"{count_asterisk * '*' :>10}\n" )
+            # TODO записать лесенку в файл
 
 
 if __name__ == "__main__":

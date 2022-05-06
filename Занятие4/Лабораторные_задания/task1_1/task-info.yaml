@@ -261,6 +261,9 @@ files:
     if __name__ == '__main__':
         task()
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: books.md
   visible: true
   text: "## 25 most recommended Python books of all-time\n\nNumber of lists: 130,\
@@ -534,9 +537,6 @@ files:
     \ other releases in common use today. You’ll also learn some advanced language\
     \ features that recently have become more common in Python code.\" [Amazon.com](https://amzn.to/3cvghHw)\n\
     \ "
-  learner_created: false
-- name: __init__.py
-  visible: false
   learner_created: false
 status: Unchecked
 record: -1

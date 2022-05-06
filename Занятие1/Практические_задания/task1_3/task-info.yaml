@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 128
-    length: 95
+    length: 286
     placeholder_text: |-
       # TODO заменить на функцию max и функцию get_distance
           list_distances = list(map(get_distance, points))
@@ -22,7 +22,7 @@ files:
       length: 286
       offset: 128
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: return max(points, key=get_distance)
   text: |
@@ -56,5 +56,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 20 Apr 2022 15:22:41 UTC
+  time: Fri, 06 May 2022 15:15:38 UTC
 record: -1

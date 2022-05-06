@@ -20,9 +20,5 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
-feedback:
-  message: Incorrect
-  time: Tue, 26 Apr 2022 08:51:28 UTC
-  actual: <no output>
+status: Unchecked
 record: -1

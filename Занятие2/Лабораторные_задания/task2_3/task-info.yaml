@@ -20,7 +20,7 @@ files:
       offset: 28
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       n = 0
           while True:
@@ -40,8 +40,5 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: Tue, 26 Apr 2022 08:59:15 UTC
+status: Unchecked
 record: -1

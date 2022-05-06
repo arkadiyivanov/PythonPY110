@@ -20,7 +20,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       def header_footer(fn):
           def wrapper():
@@ -44,8 +44,5 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: Thu, 28 Apr 2022 06:35:13 UTC
+status: Unchecked
 record: -1

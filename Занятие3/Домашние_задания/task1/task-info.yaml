@@ -3,6 +3,9 @@ files:
 - name: tests/output.txt
   visible: false
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   text: |
@@ -10,21 +13,9 @@ files:
         # Write your solution here
         pass
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: list_f.txt
-  visible: true
-  learner_created: true
-- name: listfile.txt
-  visible: true
-  learner_created: true
-- name: listfile3.txt
-  visible: true
-  learner_created: true
 status: Failed
 feedback:
   message: Incorrect
-  time: Fri, 06 May 2022 10:53:27 UTC
+  time: Fri, 06 May 2022 15:59:29 UTC
   actual: <no output>
 record: -1

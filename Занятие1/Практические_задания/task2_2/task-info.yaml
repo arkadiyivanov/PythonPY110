@@ -9,14 +9,14 @@ files:
   visible: true
   placeholders:
   - offset: 154
-    length: 101
+    length: 108
     placeholder_text: 'filter_positive_number, [-2, -1, 0, 1, -3, 2, -3])  # TODO
       заменить filter_positive_number на lambda функцию'
     initial_state:
       length: 108
       offset: 154
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'lambda x: x > 0, [-2, -1, 0, 1, -3, 2, -3])'
   text: |
@@ -34,5 +34,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 20 Apr 2022 15:43:21 UTC
+  time: Fri, 06 May 2022 15:15:49 UTC
 record: -1

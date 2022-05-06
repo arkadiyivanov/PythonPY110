@@ -9,14 +9,14 @@ files:
   visible: true
   placeholders:
   - offset: 223
-    length: 94
+    length: 75
     placeholder_text: '...  # TODO c помощью функции map привести каждый элемент списка
       к типу int'
     initial_state:
       length: 75
       offset: 223
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: list(map(int, num_list))
   text: |
@@ -42,5 +42,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 20 Apr 2022 16:19:37 UTC
+  time: Fri, 06 May 2022 15:23:39 UTC
 record: -1

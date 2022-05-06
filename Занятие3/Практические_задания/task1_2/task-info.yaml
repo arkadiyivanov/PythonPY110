@@ -18,14 +18,14 @@ files:
   visible: true
   placeholders:
   - offset: 178
-    length: 88
+    length: 71
     placeholder_text: '...  # TODO с помощью метода write запишите построчно содержимое
       списка'
     initial_state:
       length: 71
       offset: 178
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: f.write(word + "\n")
   text: |
@@ -52,5 +52,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 28 Apr 2022 12:40:34 UTC
+  time: Fri, 06 May 2022 15:16:24 UTC
 record: -1

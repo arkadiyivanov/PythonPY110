@@ -32,25 +32,25 @@ files:
   visible: true
   placeholders:
   - offset: 51
-    length: 64
+    length: 51
     placeholder_text: 'with ... as file:  # TODO открыть указатель на файл'
     initial_state:
       length: 51
       offset: 51
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: 'with open(INPUT_FILE) as file:'
-  - offset: 124
-    length: 131
+  - offset: 111
+    length: 87
     placeholder_text: '...  # TODO файл является итератором, который работает с циклом
       for в построчном режиме'
     initial_state:
       length: 87
       offset: 111
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: |-
       for line in file:
                   print(line, end="")
@@ -69,8 +69,5 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: Wed, 04 May 2022 10:05:23 UTC
+status: Unchecked
 record: -1

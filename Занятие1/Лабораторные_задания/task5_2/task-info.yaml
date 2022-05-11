@@ -5,20 +5,17 @@ files:
   text: |
     [32.0, 97.88000000000001, 212.0]
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 64
-    length: 52
+    length: 96
     placeholder_text: '...  # TODO  вернуть список температур по Фаренгейту'
     initial_state:
       length: 52
       offset: 64
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: 'list(map(lambda temp: temp * (9 / 5) + 32, temp_tuple))'
   text: |
@@ -31,8 +28,11 @@ files:
     if __name__ == "__main__":
         print(task())
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 15:24:14 UTC
+  time: Wed, 20 Apr 2022 16:58:55 UTC
 record: -1

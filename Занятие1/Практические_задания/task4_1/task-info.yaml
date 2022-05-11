@@ -20,23 +20,23 @@ files:
   visible: true
   placeholders:
   - offset: 343
-    length: 56
+    length: 75
     placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:
       length: 56
       offset: 343
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: next(iterator_numbers))
-  - offset: 528
-    length: 56
+  - offset: 547
+    length: 75
     placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:
       length: 56
       offset: 528
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: next(iterator_numbers))
   text: |
@@ -65,5 +65,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 15:23:19 UTC
+  time: Wed, 20 Apr 2022 15:50:40 UTC
 record: -1

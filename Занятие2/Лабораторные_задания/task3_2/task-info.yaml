@@ -11,7 +11,7 @@ files:
       offset: 27
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def wrapper(str_arg):
               if len(str_arg) < 10:
@@ -27,7 +27,7 @@ files:
       offset: 94
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '@min_len_check'
   text: |
     def min_len_check(fn):
@@ -49,6 +49,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

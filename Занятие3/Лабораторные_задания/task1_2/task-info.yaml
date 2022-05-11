@@ -32,13 +32,13 @@ files:
   visible: true
   placeholders:
   - offset: 45
-    length: 35
+    length: 175
     placeholder_text: '...  # TODO записать лесенку в файл'
     initial_state:
       length: 35
       offset: 45
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       with open(OUTPUT_FILE, "w") as f:
@@ -65,5 +65,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 17:14:34 UTC
+  time: Fri, 06 May 2022 06:47:39 UTC
 record: -1

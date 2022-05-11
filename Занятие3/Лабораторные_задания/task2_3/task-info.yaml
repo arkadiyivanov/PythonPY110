@@ -21,7 +21,7 @@ files:
       with open(filename) as f:
               json_data = json.load(f)
   - offset: 165
-    length: 98
+    length: 97
     placeholder_text: '...  # TODO найти максимальный элемент по ключу score'
     initial_state:
       length: 53
@@ -43,9 +43,6 @@ files:
 
     if __name__ == "__main__":
         print(task())
-  learner_created: false
-- name: __init__.py
-  visible: false
   learner_created: false
 - name: input.json
   visible: true
@@ -1253,8 +1250,11 @@ files:
       }
     ]
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 17:29:15 UTC
+  time: Fri, 06 May 2022 08:02:28 UTC
 record: -1

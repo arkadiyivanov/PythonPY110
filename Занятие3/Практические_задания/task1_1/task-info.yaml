@@ -22,14 +22,14 @@ files:
   visible: true
   placeholders:
   - offset: 256
-    length: 77
+    length: 95
     placeholder_text: '# TODO c помощью метода строки strip очистить строку от непечатыемых
       символов'
     initial_state:
       length: 77
       offset: 256
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: line = line.strip()
   text: |
@@ -50,5 +50,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 15:16:05 UTC
+  time: Thu, 28 Apr 2022 12:36:14 UTC
 record: -1

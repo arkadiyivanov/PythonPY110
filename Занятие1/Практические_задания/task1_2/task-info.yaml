@@ -5,20 +5,17 @@ files:
   text: |
     7.432361670424818
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 133
-    length: 56
+    length: 51
     placeholder_text: 'max(list(map(get_distance, points)))  # TODO убрать list'
     initial_state:
       length: 56
       offset: 133
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: max(map(get_distance, points))
   text: |
@@ -40,8 +37,11 @@ files:
 
         print(task(pts))
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 15:15:21 UTC
+  time: Wed, 20 Apr 2022 15:15:07 UTC
 record: -1

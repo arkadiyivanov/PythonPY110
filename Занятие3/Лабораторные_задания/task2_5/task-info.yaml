@@ -24,9 +24,6 @@ files:
         result = task()
         print(f"{result:.3f}")
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: input.json
   visible: true
   text: |-
@@ -65,8 +62,11 @@ files:
       }
     ]
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 16:28:44 UTC
+  time: Fri, 06 May 2022 08:10:34 UTC
 record: -1

@@ -123,8 +123,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 129
-    length: 40
+  - offset: 128
+    length: 90
     placeholder_text: '...  # TODO отсортировать список словарей'
     initial_state:
       length: 41
@@ -133,7 +133,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: 'sorted(json_data, key=lambda item: item["length"])'
-  - offset: 260
+  - offset: 309
     length: 64
     placeholder_text: '# TODO дополнительно записать отсортированный список в JSON
       файл'
@@ -141,7 +141,7 @@ files:
       length: 64
       offset: 261
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: '# TODO'
   text: |
@@ -161,9 +161,6 @@ files:
         print(json.dumps(data, indent=4))
 
         # TODO дополнительно записать отсортированный список в JSON файл
-  learner_created: false
-- name: __init__.py
-  visible: false
   learner_created: false
 - name: input.json
   visible: true
@@ -285,8 +282,11 @@ files:
       }
     ]
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 16:28:50 UTC
+  time: Fri, 06 May 2022 08:13:38 UTC
 record: -1

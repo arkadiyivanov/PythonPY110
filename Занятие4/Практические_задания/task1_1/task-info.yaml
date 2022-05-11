@@ -15,26 +15,26 @@ files:
   visible: true
   placeholders:
   - offset: 229
-    length: 71
+    length: 73
     placeholder_text: '...)  # TODO записать регулярное выражение для поиска слова
       любой длины'
     initial_state:
       length: 71
       offset: 229
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: r"\w+")
-  - offset: 355
-    length: 64
+  - offset: 357
+    length: 85
     placeholder_text: ')  # TODO вызвать от регулярного выражения методы search и
       group'
     initial_state:
       length: 64
       offset: 355
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: .search(word).group())
   text: |
     import re
@@ -63,5 +63,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 11 May 2022 05:50:58 UTC
 record: -1

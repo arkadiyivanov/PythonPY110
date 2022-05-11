@@ -14,14 +14,14 @@ files:
   visible: true
   placeholders:
   - offset: 144
-    length: 66
+    length: 115
     placeholder_text: '...)  # TODO записать регулярное выражение с именованными группами'
     initial_state:
       length: 66
       offset: 144
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: r"(?P<day>\d\d)-(?P<mounth>\d\d)-(?P<year>\d\d\d\d)")
   text: |
     import re
@@ -42,5 +42,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 11 May 2022 06:15:28 UTC
 record: -1

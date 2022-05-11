@@ -7,14 +7,14 @@ files:
   visible: true
   placeholders:
   - offset: 156
-    length: 44
+    length: 17
     placeholder_text: '...)  # TODO используйте запоминающие группы'
     initial_state:
       length: 44
       offset: 156
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: r"@(\w+)\.(\w+)")
   text: |
     import re
@@ -33,5 +33,10 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Wed, 11 May 2022 06:19:57 UTC
+  actual: |
+    [('gmail', 'com'), ('test', 'in'), ('analyticsvidhya', 'com'), ('rest', 'biz')]
 record: -1

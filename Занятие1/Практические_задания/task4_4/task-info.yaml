@@ -24,25 +24,25 @@ files:
   visible: true
   placeholders:
   - offset: 43
-    length: 50
+    length: 62
     placeholder_text: '[hex(num) for num in numbers]  # TODO заменить на итератор
       map'
     initial_state:
       length: 62
       offset: 43
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: map(hex, numbers)
-  - offset: 119
-    length: 26
+  - offset: 131
+    length: 81
     placeholder_text: '...:  # TODO используя zip объединить число и его шестнадцатеричное
       представление'
     initial_state:
       length: 81
       offset: 131
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'zip(numbers, hex_numbers):'
   text: |
@@ -63,5 +63,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 20 Apr 2022 16:15:47 UTC
+  time: Fri, 06 May 2022 15:23:32 UTC
 record: -1

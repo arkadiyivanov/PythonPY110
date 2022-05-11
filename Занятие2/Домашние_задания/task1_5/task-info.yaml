@@ -14,11 +14,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-- name: пароли.py
-  visible: true
-  learner_created: true
-status: Solved
-feedback:
-  time: Thu, 28 Apr 2022 11:28:31 UTC
+status: Unchecked
 record: -1
 post_submission_on_open: true

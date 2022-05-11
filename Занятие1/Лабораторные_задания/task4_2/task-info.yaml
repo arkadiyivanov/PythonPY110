@@ -18,13 +18,13 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 64
+    length: 49
     placeholder_text: '...  # TODO бесконечно повторяем элементы кортежа'
     initial_state:
       length: 49
       offset: 64
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: itertools.cycle(a)
   text: |
@@ -47,5 +47,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 20 Apr 2022 16:50:45 UTC
+  time: Fri, 06 May 2022 15:24:04 UTC
 record: -1

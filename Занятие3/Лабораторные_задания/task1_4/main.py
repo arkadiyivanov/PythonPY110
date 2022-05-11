@@ -3,11 +3,12 @@ OUTPUT_FILE = "output.txt"
 
 
 def task():
-    with open(INPUT_FILE, "r") as input_file:
-        with open(OUTPUT_FILE, "w") as output_file:
-            for upper_line in map(str.upper, input_file):
-                output_file.write(upper_line)
-            # TODO перезаписать содержимое одного файла в другой
+    def task():
+        with open(INPUT_FILE, "r") as input_file:
+            with open(OUTPUT_FILE, "w") as output_file:
+                for upper_line in map(str.upper, input_file):
+                    output_file.write(upper_line)
+    # TODO перезаписать содержимое одного файла в другой
 
 
 if __name__ == "__main__":

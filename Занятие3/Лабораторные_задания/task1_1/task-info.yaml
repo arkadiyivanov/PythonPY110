@@ -32,24 +32,24 @@ files:
   visible: true
   placeholders:
   - offset: 51
-    length: 64
+    length: 51
     placeholder_text: 'with ... as file:  # TODO открыть указатель на файл'
     initial_state:
       length: 51
       offset: 51
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'with open(INPUT_FILE) as file:'
-  - offset: 124
-    length: 131
+  - offset: 111
+    length: 87
     placeholder_text: '...  # TODO файл является итератором, который работает с циклом
       for в построчном режиме'
     initial_state:
       length: 87
       offset: 111
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       for line in file:
@@ -72,5 +72,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 04 May 2022 10:05:23 UTC
+  time: Fri, 06 May 2022 16:27:23 UTC
 record: -1

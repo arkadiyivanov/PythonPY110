@@ -30,8 +30,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 70
-    length: 262
+  - offset: 304
+    length: 52
     placeholder_text: '...  # TODO перезаписать содержимое одного файла в другой'
     initial_state:
       length: 57
@@ -66,5 +66,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 07:06:12 UTC
+  time: Fri, 06 May 2022 16:45:20 UTC
 record: -1

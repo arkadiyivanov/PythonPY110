@@ -11,14 +11,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 87
-    length: 51
+  - offset: 69
+    length: 42
     placeholder_text: '...:  # TODO повторить переменную a 4 раза'
     initial_state:
       length: 42
       offset: 69
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'repeat(a, 4):'
   text: |
@@ -40,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 20 Apr 2022 16:54:36 UTC
+  time: Fri, 06 May 2022 15:24:08 UTC
 record: -1

@@ -7,11 +7,19 @@ files:
         "русские слова": "c ними беда :(("
     }
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: input.json
+  visible: true
+  text: '{"\u0440\u0443\u0441\u0441\u043a\u0438\u0435 \u0441\u043b\u043e\u0432\u0430":
+    "c \u043d\u0438\u043c\u0438 \u0431\u0435\u0434\u0430 :(("}'
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 395
-    length: 127
+    length: 85
     placeholder_text: 'print(python_obj)  # TODO распечатать объект как JSON строку
       с отступами и кодировкой'
     initial_state:
@@ -45,11 +53,6 @@ files:
 
         to_json_file(python_obj)
   learner_created: false
-- name: input.json
-  visible: true
-  text: '{"\u0440\u0443\u0441\u0441\u043a\u0438\u0435 \u0441\u043b\u043e\u0432\u0430":
-    "c \u043d\u0438\u043c\u0438 \u0431\u0435\u0434\u0430 :(("}'
-  learner_created: false
 - name: output.json
   visible: true
   text: |-
@@ -57,11 +60,8 @@ files:
         "русские слова": "c ними беда :(("
     }
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 04 May 2022 10:02:13 UTC
+  time: Fri, 06 May 2022 15:16:30 UTC
 record: -1

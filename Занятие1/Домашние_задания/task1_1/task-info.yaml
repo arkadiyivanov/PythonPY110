@@ -13,10 +13,5 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
-feedback:
-  message: Incorrect
-  time: Wed, 20 Apr 2022 17:14:31 UTC
-  actual: |
-    [('apple', 5), ('pear', 89), ('peach', 7)]
+status: Unchecked
 record: -1
